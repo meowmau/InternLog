@@ -1,0 +1,52 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.6
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Aclonica
+      fonts:
+        - asset: assets/font/Aclonica-Regular.ttf
+
+    - family: CaladeaBold
+      fonts:
+        - asset: assets/font/Caladea-Bold.ttf
+
+    - family: CaladeaBoldItalic
+      fonts:
+        - asset: assets/font/Caladea-BoldItalic.ttf
+
+    - family: CaladeaItalic
+      fonts:
+        - asset: assets/font/Caladea-Italic.ttf
+
+    - family: CaladeaRegular
+      fonts:
+        - asset: assets/font/Caladea-Regular.ttf
+
+  assets:
+    - assets/images/bg.jpg
+    - assets/images/bg1.jpg
+    - assets/images/logo.jpg
